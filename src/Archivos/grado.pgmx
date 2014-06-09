@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProbModelXML formatVersion="0.2.0">
+  <ProbNet type="BayesianNetwork">
+    <Variables>
+      <Variable name="Anteproyecto" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="364" y="459" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="A" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="negativo" />
+          <State name="positivo" />
+        </States>
+      </Variable>
+      <Variable name="Tema" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="208" y="594" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="B" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Director" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="479" y="592" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="C" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Pertinecia" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="155" y="520" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="D" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Modulos Aprobados" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="131" y="430" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="E" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Grado" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="423" y="67" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="F" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Cronograma" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="357" y="275" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="H" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no terminado" />
+          <State name="terminado" />
+        </States>
+      </Variable>
+      <Variable name="Defensa Publica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="896" y="110" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="K" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="reprobada" />
+          <State name="aprobado" />
+        </States>
+      </Variable>
+      <Variable name="Docente Tribunal 1" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1434" y="101" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="L" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no aprobado" />
+          <State name="aprobado" />
+        </States>
+      </Variable>
+      <Variable name="Decente Tribunal 2" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1428" y="198" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="M" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no aprobado" />
+          <State name="aprobado" />
+        </States>
+      </Variable>
+      <Variable name="Docente Tribunal 3" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1430" y="318" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="N" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no aprobado" />
+          <State name="aprobado" />
+        </States>
+      </Variable>
+      <Variable name="Aptitud Legal" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="891" y="483" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="J" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="reprobada" />
+          <State name="aprobado" />
+        </States>
+      </Variable>
+      <Variable name="Ingles" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="660" y="495" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="O" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Eduacion Fisica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="826" y="596" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="P" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Record Academico" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1100" y="569" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="Q" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Pasantias" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1315" y="464" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="R" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Proyecto de fin de Carrera" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="608" y="372" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="S" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no terminado " />
+          <State name="terminado" />
+        </States>
+      </Variable>
+      <Variable name="Fecha Privada" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="644" y="160" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="V" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no asignada" />
+          <State name="asignada" />
+        </States>
+      </Variable>
+      <Variable name="Defensa Privada" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="829" y="273" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="W" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="reprobada" />
+          <State name="aprobada" />
+        </States>
+      </Variable>
+      <Variable name="Fecha Publica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1122" y="40" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="Title" value="Y" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no asiganada" />
+          <State name="asignada" />
+        </States>
+      </Variable>
+    </Variables>
+    <Links>
+      <Link directed="true">
+        <Variable name="Anteproyecto" />
+        <Variable name="Proyecto de fin de Carrera" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Tema" />
+        <Variable name="Anteproyecto" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Director" />
+        <Variable name="Anteproyecto" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Pertinecia" />
+        <Variable name="Anteproyecto" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Modulos Aprobados" />
+        <Variable name="Anteproyecto" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Cronograma" />
+        <Variable name="Proyecto de fin de Carrera" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Defensa Publica" />
+        <Variable name="Grado" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Docente Tribunal 1" />
+        <Variable name="Defensa Publica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Docente Tribunal 1" />
+        <Variable name="Defensa Privada" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Decente Tribunal 2" />
+        <Variable name="Defensa Publica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Decente Tribunal 2" />
+        <Variable name="Defensa Privada" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Docente Tribunal 3" />
+        <Variable name="Defensa Publica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Docente Tribunal 3" />
+        <Variable name="Defensa Privada" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Aptitud Legal" />
+        <Variable name="Defensa Privada" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Ingles" />
+        <Variable name="Aptitud Legal" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Eduacion Fisica" />
+        <Variable name="Aptitud Legal" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Record Academico" />
+        <Variable name="Aptitud Legal" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Pasantias" />
+        <Variable name="Aptitud Legal" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Proyecto de fin de Carrera" />
+        <Variable name="Aptitud Legal" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Fecha Privada" />
+        <Variable name="Defensa Privada" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Defensa Privada" />
+        <Variable name="Defensa Publica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Fecha Publica" />
+        <Variable name="Defensa Publica" />
+      </Link>
+    </Links>
+    <Potentials>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Anteproyecto" />
+          <Variable name="Tema" />
+          <Variable name="Director" />
+          <Variable name="Pertinecia" />
+          <Variable name="Modulos Aprobados" />
+        </Variables>
+        <Values>1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Tema" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Director" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Pertinecia" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Modulos Aprobados" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Grado" />
+          <Variable name="Defensa Publica" />
+        </Variables>
+        <Values>1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Cronograma" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Defensa Publica" />
+          <Variable name="Docente Tribunal 1" />
+          <Variable name="Decente Tribunal 2" />
+          <Variable name="Docente Tribunal 3" />
+          <Variable name="Defensa Privada" />
+          <Variable name="Fecha Publica" />
+        </Variables>
+        <Values>0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 0.25 0.75 1.0 0.0 0.25 0.75 1.0 0.0 0.1 0.9 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 0.25 0.75 1.0 0.0 0.25 0.75 1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Docente Tribunal 1" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Decente Tribunal 2" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Docente Tribunal 3" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Aptitud Legal" />
+          <Variable name="Ingles" />
+          <Variable name="Eduacion Fisica" />
+          <Variable name="Record Academico" />
+          <Variable name="Pasantias" />
+          <Variable name="Proyecto de fin de Carrera" />
+        </Variables>
+        <Values>1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Ingles" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Eduacion Fisica" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Record Academico" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Pasantias" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Proyecto de fin de Carrera" />
+          <Variable name="Anteproyecto" />
+          <Variable name="Cronograma" />
+        </Variables>
+        <Values>1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Fecha Privada" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Defensa Privada" />
+          <Variable name="Aptitud Legal" />
+          <Variable name="Docente Tribunal 1" />
+          <Variable name="Decente Tribunal 2" />
+          <Variable name="Docente Tribunal 3" />
+          <Variable name="Fecha Privada" />
+        </Variables>
+        <Values>0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 0.35 0.65 0.0 1.0 1.0 0.0 1.0 0.0 0.35 0.65 1.0 0.0 0.35 0.65 1.0 0.0 0.1 0.9 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.25 0.75 0.0 1.0 1.0 0.0 1.0 0.0 0.25 0.75 1.0 0.0 0.25 0.75 1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Fecha Publica" />
+        </Variables>
+        <Values>0.0 1.0</Values>
+      </Potential>
+    </Potentials>
+    <AdditionalProperties>
+      <Property name="Version" value="1.0" />
+      <Property name="KindOfGraph" value="directed" />
+      <Property name="VisualPrecision" value="0.0" />
+    </AdditionalProperties>
+  </ProbNet>
+</ProbModelXML>
